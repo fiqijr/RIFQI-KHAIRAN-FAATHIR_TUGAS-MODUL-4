@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WEBSITE MARJAN</title>
+    <link rel="stylesheet" href="landing page.css">
+</head>
+<body>
+    <nav class="navbar">
+        <img class="logo" src="logo.jpg">
+        <ul>
+            <li><a href="#">HOME</a></li>
+            <li><a href="#">ABOUT US</a></li>
+            <li><a href="#">CONTACT US</a></li>
+        </ul>
+        <div class="menu-toggle">
+            <input type="checkbox">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </nav>
+
+    <div class="banner" id="program1">
+        <div class="container">
+        </div>
+    </div>
+
+    <div class="content">
+        <div class="paket1">
+            <div>
+                <img src="mar1.png" class="image">
+            </div>
+            <div>
+                <h2>Coco Pandan</h2>
+                <h2 class="harga">Rp 20.000</h2>
+                <div class="beli">
+                    <a href="#" class="buy">Info Lebih Lanjut</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="paket2">
+            <div>
+                <img src="mar2.png" class="image2">
+            </div>
+            <div>
+                <h2>Melon</h2>
+                <h2 class="harga">Rp 25.000</h2>
+                <div class="beli">
+                    <a href="#" class="buy">Info Lebih Lanjut</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <table>
+        <tr>
+            <td>Pesan Marjan Cocopandan : </td>
+            <td><input type="number" id="harga1" value="20000" readonly></td>
+        </tr>
+        <tr>
+            <td>Jumlah barang : </td>
+            <td><input type="number" id="jum1" value=""></td>
+        </tr>
+        <tr>
+            <td>Pesan Marjan Melon : </td>
+            <td><input type="number" id="harga2" value="25000" readonly></td>
+        </tr>
+        <tr>
+            <td>Jumlah barang : </td>
+            <td><input type="number" id="jum2" value=""></td>
+        </tr>
+        <tr>
+            <td>Diskon : </td>
+            <td><input type="number" id="diskon" value=""></td>
+        </tr>
+        <tr>
+            <td>total :</td>
+            <td><input type="number" id="total" value=""></td>
+        </tr>
+        <tr>
+            <td><button onclick="klik()"> Pesan </button></td>
+        </tr>
+        
+        <script src="scrpt.js"></script>
+    </table>
+
+    <div class="up" onclick="CL()">
+        <img src="up.png" width="20px">
+    </div>
+
+    <div class="footer">
+        <h1>Privacy Policy ● Sitemap ● Support ● © 2023 Fiqi Studios</h1>
+    </div>
+
+    <script src="landing page.js"></script>
+</body>
+</html>
